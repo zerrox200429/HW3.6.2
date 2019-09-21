@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TaskDetailsActivity">\
+    <TextView
+        android:id="@+id/details_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Студенчиский билет"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/details_title"
+        android:layout_width="411dp"
+        android:layout_height="63dp"
+        android:hint="Имя"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/details_description"
+        android:layout_width="match_parent"
+        android:layout_height="76sp"
+        android:hint="Фамилия"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/details_adress"
+        android:layout_width="match_parent"
+        android:layout_height="76sp"
+        android:hint="Дата рождения:чч.мм.гг"
+        android:textSize="35sp"/>
+    <EditText
+        android:id="@+id/details_hobbi"
+        android:layout_width="match_parent"
+        android:layout_height="76sp"
+        android:hint="Факультет"
+        android:textSize="40sp"/>
+    <EditText
+        android:id="@+id/details_nomer"
+        android:layout_width="match_parent"
+        android:layout_height="76sp"
+        android:hint="Студенчиский ID"
+        android:textSize="40sp"/>
+
+    <CheckBox
+        android:id="@+id/details_isDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/details_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:onClick="onClickSave"
+        android:textSize="30sp"
+        />
+
+</LinearLayout>
